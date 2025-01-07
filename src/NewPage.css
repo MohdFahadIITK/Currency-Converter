@@ -1,0 +1,42 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    background: url("./assets/bg.png") no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire area without stretching */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+.center {
+    font-size: 1.7rem; /* Increase text size */
+    transform: scale(1.1); /* Scale everything up */
+  }
+  .center h1 {
+    font-size: 2.8rem; /* Larger heading text */
+  }
+  .center button {
+    font-size: 1.3rem; /* Larger button text */
+    padding: 1rem 2rem; /* Increase button size */
+  }
+  .center select {
+    font-size: 1.3rem; /* Adjust dropdown font size */
+    padding: 0.3rem; /* Add padding for size */
+    width: 100%; /* Adjust width */
+    height: 3rem; /* Adjust height for scaling */
+  }
+  
+  .center option {
+    font-size: 1.3rem; /* Adjust font size inside options */
+  }
+  
+  .center input {
+    font-size: 1.3rem; /* Increase the font size of the text */
+    padding: 0.5rem; /* Add padding inside the box */
+    width: 100%; /* Make the input take up the full width (optional) */
+    height: 2.5rem; /* Increase the height of the input box */
+    border: 1px solid gray; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
